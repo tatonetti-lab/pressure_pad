@@ -1,0 +1,18 @@
+{
+  "port": "/dev/cu.usbmodem1102",
+  "configuration": "split=100_0,target_core=cm7,security=none",
+  "output": "build",
+  "board": "arduino:mbed_giga:giga",
+  "programmer": "",
+  "useProgrammer": false,
+  "optimize_for_debug": false,
+  "configurationRequired": true,
+  "monitorPortSettings": {
+    "port": "/dev/cu.Bluetooth-Incoming-Port",
+    "baudRate": 115200,
+    "lineEnding": "\r\n",
+    "dataBits": 8,
+    "parity": "none",
+    "stopBits": "one"
+  }
+}
