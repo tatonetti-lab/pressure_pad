@@ -5,7 +5,7 @@
 	(uuid "027f5571-30b3-4bd0-9327-373b69488031")
 	(paper "A4")
 	(title_block
-		(title "Presure Pad Data Collection Circuit Schematic")
+		(title "Pressure Pad Data Collection Circuit Schematic")
 		(date "2025-07-07")
 		(rev "7")
 		(company "Cedars-Sinai Medical Center")
