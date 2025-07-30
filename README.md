@@ -2,7 +2,6 @@
 A smart pressure-sensing pad for early detection of pressure ulcers.
 
 ## 📖 Table of Contents
-- [📖 Table of Contents](#-table-of-contents)
 - [🔬 Project Overview](#-project-overview)
   - [Motivation](#motivation)
 - [🛠 Hardware](#-hardware)
