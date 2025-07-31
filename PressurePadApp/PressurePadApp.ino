@@ -9,7 +9,7 @@ extern lv_obj_t *ui_heatmap;
 extern lv_obj_t *ui_Live_Data;
 extern lv_obj_t *ui_Live_Data_Overview;
 
-// Zone buttons
+//  --- Zone buttons ---
 extern lv_obj_t *ui_Z01;
 extern lv_obj_t *ui_Z02;
 extern lv_obj_t *ui_Z03;

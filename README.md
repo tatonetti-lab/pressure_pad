@@ -75,14 +75,16 @@ Pressure ulcers are a major complication for bedridden or post-surgical patients
 >Necessary libraries: `Arduino_GigaDisplayTouch`, `Arduino_GigaDisplay_GFX`, and `lvgl` **(v8.3.11)**.
 
 ### Hardware Guide
-1. Position the `pressure pad` so that the connection points are at the bottom right (`red` side facing up)
-   ![](Assets/pressure_pad.png)
-2. Wire pad to PCB:
-   - **Red leads** → `DEMULTIPLEXER OUTPUTS`
-   - **Blue leads** → `MULTIPLEXER INPUTS`
-3. Insert the `Arduino GIGA R1 WiFi` into the PCB (female headers facing down)
-4. Insert the `Arduino GIGA Display Shield` into `Arduino GIGA R1`
-5. Power the board and observe live readings on the display
+1. Insert the `Arduino GIGA Display Shield` into `Arduino GIGA R1`
+   ![display shield connect](Assets/display_shield_connect.png)
+2. Insert the `Arduino GIGA R1 WiFi + Display` into the PCB (female headers facing down)
+   <img src="Assets/circuit_board_display.png" width="500" height="700">
+3. Position the `pressure pad` so that the connection points are at the bottom right (`red` side facing up)
+   ![pressure pad](Assets/pressure_pad.png)
+4. Wire pad to PCB:
+   - **Red leads** → `DEMULTIPLEXER OUTPUTS` (vertical header, right)
+   - **Blue leads** → `MULTIPLEXER INPUTS` (horizontal header, bottom)
+5. Power the board
 
 ### Software Guide
 >Once the system is powered on and the display shield is connected, the UI will launch automatically.
@@ -95,7 +97,7 @@ Pressure ulcers are a major complication for bedridden or post-surgical patients
 - **`Live Data:`** Shows an 8×8 heatmap of the selected zone from the pad
   - Color-coded for quick identification of high-pressure points
   - Updated continuously based on sensor readings
-- **`Historic Data (Coming Soon):`** Will display trends in pressure over time and trigger alerts for high-risk zones
+- **`Historic Data (Under Development):`** Will display trends in pressure over time and trigger alerts for high-risk zones
 
 **Navigation:**
 - Touchscreen is fully interactive (capacitive touch)
@@ -169,5 +171,7 @@ PressurePad/
 ## ✍️ Authors
 
 - [@AlexAhitov](https://github.com/AlexAhitov)
+
+[**Back to the top**](#pressure-sensor-pad-for-real-time-ulcer-detection)
 
 ![Logo](Assets/logo.png)

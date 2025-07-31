@@ -2,6 +2,7 @@
     "cmake.sourceDirectory": "/Users/alexahitov/Desktop/PressurePad/PressurePadApp",
     "markdown.validate.enabled": true,
     "cSpell.words": [
+        "Ahitov",
         "DEMULTIPLEXER",
         "demux",
         "GIGA",
@@ -11,8 +12,5 @@
         "piezoresistive",
         "tappable",
         "Velostat"
-    ],
-    "markdown.extension.toc.omittedFromToc": {
-        "README.md":["#pressure-sensor-pad-for-real-time-ulcer-detection"]
-    }
+    ]
 }
