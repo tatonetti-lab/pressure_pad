@@ -30,7 +30,7 @@ Pressure ulcers are a major complication for bedridden or post-surgical patients
 - Continuously monitoring pressure points beneath a patient
 - Alerting clinicians to prolonged or high-risk pressure areas
 - Improving quality of care, particularly in oncology and ICU units
->For a more in-depth analysis, go to [`PressurePad/Docs/Pressure Pad Presentation.pdf`](https://github.com/tatonetti-lab/pressure_pad/blob/main/Docs/Pressure%20Pad%20Presentation.pdf)
+>For a more in-depth analysis, go to [`/Docs/Pressure Pad Presentation.pdf`](https://github.com/tatonetti-lab/pressure_pad/blob/main/Docs/Pressure%20Pad%20Presentation.pdf)
 
 ## 🛠 Hardware
 
@@ -155,7 +155,7 @@ Pressure ulcers are a major complication for bedridden or post-surgical patients
 
 ## 🧱 File Structure
 <pre>
-PressurePad/
+pressure_pad/
 ├── PressurePadApp/          # Arduino firmware and UI code
 │   ├── PressurePadApp.ino
 │   ├── ui_*.c / .h          # UI pages and assets
