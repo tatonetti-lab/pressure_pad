@@ -156,17 +156,22 @@ Pressure ulcers are a major complication for bedridden or post-surgical patients
 ## 🧱 File Structure
 <pre>
 pressure_pad/
-├── PressurePadApp/          # Arduino firmware and UI code
+├── PressurePadApp/             # Arduino firmware and UI code
 │   ├── PressurePadApp.ino
-│   ├── ui_*.c / .h          # UI pages and assets
+│   ├── ui_*.c / .h             # UI pages and assets
 │   └── CMakeLists.txt
-├── KiCad/                   # PCB schematic and layout files
+├── KiCad/                      # PCB schematic and layout files
 │   └── pressure_pad.kicad_*
-├── Assets/                  # Images for documentation
+├── Assets/                     # Images for documentation
 │   └── *.png
-├── Docs/                    # Slides, references, design notes
+├── Docs/                       # Slides, references, design notes
 │   └── *.pdf
-└── .vscode/                 # VSCode config (not necessary for implementation)
+├── DenoisingAutoencoder_OLD/   # Legacy Python scripts and ML notebooks
+│   ├── no_touch_set/
+│   ├── 6x6/
+│   ├── *.ipynb
+│   └── pressure_pad_study.db
+└── .vscode/                    # VSCode config (not necessary for implementation)
 </pre>
 
 ## ✍️ Authors
