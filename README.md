@@ -71,7 +71,7 @@ Pressure ulcers are a major complication for bedridden or post-surgical patients
 ### Firmware Upload
 1. Connect `Arduino GIGA R1 WiFi` via USB
 2. Download the `PressurePadApp.zip`
-3. Upload `PressurePadApp.ino` sketch using Arduino IDE
+3. Upload `PressurePadApp.ino` sketch using [**`Arduino IDE`**](https://www.arduino.cc/en/software/)
 
 >Necessary libraries: `Arduino_GigaDisplayTouch`, `Arduino_GigaDisplay_GFX`, and `lvgl` **(v8.3.11)**.
 
