@@ -55,6 +55,12 @@ The pad has gone through three read architectures. Earlier designs are kept in [
 | Summer 2025 | 23 × 32 conductive-thread grid (736 cells) | `ADG728` I2C analog switches on a custom `KiCad` PCB, one cell at a time on the GIGA's onboard ADC; LVGL UI on the GIGA Display Shield | Full scan took ~15 to 37 s; PCB assembly issues left the board unusable; thread made only point contact with the Velostat |
 | Summer 2026 (current) | Conductive fabric strips | 8 × `ADS1115` ADCs on two I2C buses, rows driven directly from GPIO | Reads 8 points at a time; estimated ~0.75 s full-pad scan (20 to 50 × faster) |
 
+<p align="center">
+  <img src="Assets/circuit_board_display.png" alt="Legacy ADG728 multiplexer PCB with the GIGA Display Shield" width="400">
+  <br>
+  <em>Summer 2025 (legacy): custom ADG728 multiplexer PCB with the GIGA Display Shield</em>
+</p>
+
 ## Hardware
 
 ### Core Components
@@ -121,6 +127,24 @@ Each protoboard carries two ADS1115 chips, one on each I2C bus, sharing an addre
 | Board 4 | Wire2, 0x4B | 29 to 32 | SCL |
 
 Chips on separate buses may share an I2C address without conflict. Board 1 (the white board, columns 1 to 8) is fully assembled and serves as the reference example for wiring the other three.
+
+<p align="center">
+  <img src="Assets/adc_board_wiring_diagram.jpg" alt="Wiring diagram for all four ADC protoboards" width="800">
+  <br>
+  <em>Wiring diagram for all four boards: power, both I2C buses, ADDR jumpers, 10 kohm pull-downs and column outputs</em>
+</p>
+
+<p align="center">
+  <img src="Assets/board1_reference.jpg" alt="Assembled Board 1 with two ADS1115 chips" width="400">
+  <br>
+  <em>Board 1 (columns 1 to 8), the assembled reference board</em>
+</p>
+
+<p align="center">
+  <img src="Assets/adc_boards_assembled.jpg" alt="All four ADC boards wired together in parallel" width="800">
+  <br>
+  <em>All four boards wired in parallel on the shared 3.3V, GND, Wire and Wire2 lines</em>
+</p>
 
 **Arduino GIGA R1 WiFi I2C pin assignments:**
 
@@ -293,7 +317,7 @@ pressure_pad/
 ├── Docs/                              # Presentation and legacy schematic/PCB PDFs
 │   └── *.pdf
 ├── Assets/                            # Images for documentation
-│   └── *.png
+│   └── *.png, *.jpg
 └── OLD/                               # Previous designs, kept for reference
     ├── PCB/                           # KiCad project for the ADG728 board
     └── DenoisingAutoencoder_OLD/      # Earlier firmware, notebooks and ML work
