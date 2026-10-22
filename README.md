@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="Assets/logo.png" alt="Tatonetti Lab and Cedars-Sinai logo" width="320">
-</p>
-
 # Pressure Sensor Pad for Real-Time Ulcer Detection
 A smart pressure-sensing pad for early detection of pressure ulcers, built at the Tatonetti Lab, Cedars-Sinai.
 
@@ -311,5 +307,9 @@ pressure_pad/
 ## Authors
 
 - [@AlexAhitov](https://github.com/AlexAhitov)
+
+<p align="center">
+  <img src="Assets/logo.png" alt="Tatonetti Lab and Cedars-Sinai logo" width="320">
+</p>
 
 [**Back to the top**](#pressure-sensor-pad-for-real-time-ulcer-detection)
