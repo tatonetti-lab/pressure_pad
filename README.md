@@ -141,7 +141,7 @@ Chips on separate buses may share an I2C address without conflict. Board 1 (the 
 </p>
 
 <p align="center">
-  <img src="Assets/adc_boards_assembled.jpg" alt="All four ADC boards wired together in parallel" width="800">
+  <img src="Assets/adc_boards_assmebled.jpg" alt="All four ADC boards wired together in parallel" width="800">
   <br>
   <em>All four boards wired in parallel on the shared 3.3V, GND, Wire and Wire2 lines</em>
 </p>
